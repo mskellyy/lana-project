@@ -8,7 +8,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   width: 1512px;
-  height: 900px;
+  height: 800px;
   gap: 0px;
   opacity: 0px;
   margin: 0 auto;
@@ -75,15 +75,77 @@ header a {
 .coded-by {
   font-family: monospace;
   font-size: 15px;
-  text-align: center;
-  color: black;
+
+  color: white;
 }
 
 a {
   text-decoration: none;
 }
 
-@media (max-width: 900px) {
+.coded-by a {
+  color: gray;
+}
+
+.coded-by a:hover {
+  color: white;
+}
+
+footer {
+  background-image: url(../img/background-footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(75);
+  width: 1512px;
+  height: 334px;
+  margin: 0 auto;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: gray;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr, 2fr, 2fr;
+  grid-gap: 10px;
+}
+
+h4 {
+  font-family: Playfair Display;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+}
+
+footer li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer section {
+  margin: 0 auto;
+  padding-left: 30px;
+}
+
+@media (max-width: 1200px) {
   header {
     padding: 60px 0px;
     width: auto;
@@ -100,5 +162,19 @@ a {
 
   header h5 {
     font-size: 12px;
+  }
+
+  header a {
+    margin-top: 20px;
+  }
+
+  .coded-by {
+    font-size: 10px;
+  }
+
+  footer {
+    padding: 60px 0px;
+    width: auto;
+    height: auto;
   }
 }

@@ -110,7 +110,7 @@ footer a:hover {
   color: gray;
 }
 
-.grid {
+section .grid {
   display: grid;
   grid-template-columns: 1fr, 2fr, 2fr;
   grid-gap: 10px;
@@ -176,5 +176,17 @@ footer section {
     padding: 60px 0px;
     width: auto;
     height: auto;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  section p {
+    font-size: 13px;
+  }
+
+  section a {
+    font-size: 13px;
   }
 }

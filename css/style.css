@@ -91,6 +91,12 @@ a {
   color: white;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr, 2fr, 2fr;
+  grid-gap: 10px;
+}
+
 footer {
   background-image: url(../img/background-footer.png);
   background-repeat: no-repeat;
@@ -108,12 +114,6 @@ footer a {
 
 footer a:hover {
   color: gray;
-}
-
-section .grid {
-  display: grid;
-  grid-template-columns: 1fr, 2fr, 2fr;
-  grid-gap: 10px;
 }
 
 h4 {

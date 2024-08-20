@@ -378,10 +378,14 @@ footer section {
 
   .grid-2 h6 {
     font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .grid-2 article {
     font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .grid-2 {

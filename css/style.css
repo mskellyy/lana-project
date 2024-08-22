@@ -125,7 +125,8 @@ a {
 article {
   text-align: left;
   margin-left: 30px;
-  width: 600px;
+  width: inherit;
+  height: inherit;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -450,5 +451,9 @@ footer section {
 
   .section-4 h6 {
     font-size: 25px;
+  }
+
+  .hide {
+    display: none;
   }
 }
